@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1008</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1011</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#widget{
+background-color:#677B5E;
+}</string>
+   </property>
+   <widget class="QLineEdit" name="idINP">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>40</y>
+      <width>271</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#idINP{
+border-radius:15%;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="firstnameINP">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>120</y>
+      <width>271</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#firstnameINP{
+border-radius:15%;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>200</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label_3{
+color:#fff;
+}</string>
+    </property>
+    <property name="text">
+     <string>LastName:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lastnameINP">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>200</y>
+      <width>271</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#lastnameINP{
+border-radius:15%;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="hoursINP">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>190</y>
+      <width>271</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#hoursINP{
+border-radius:15%;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>120</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label_4{
+color:#fff;
+}</string>
+    </property>
+    <property name="text">
+     <string>FirstName:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label_5{
+color:#fff;
+}</string>
+    </property>
+    <property name="text">
+     <string>Employee ID:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>200</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label_6{
+color:#fff;
+}</string>
+    </property>
+    <property name="text">
+     <string>Working Hours:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>120</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label_7{
+color:#fff;
+}</string>
+    </property>
+    <property name="text">
+     <string>Position:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>50</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label_8{
+color:#fff;
+}</string>
+    </property>
+    <property name="text">
+     <string>Departement:</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="departementINP">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>50</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="PositionINP">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>120</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="ButtonsWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>260</y>
+     <width>1011</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#ButtonsWidget{
+background-color:#677B5E;
+}</string>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="AddButton">
+      <property name="styleSheet">
+       <string notr="true">#AddButton{
+background-color:#BC9C22;
+}</string>
+      </property>
+      <property name="text">
+       <string>ADD</string>
+      </property>
+      <property name="icon">
+       <iconset resource="../ressouce.qrc">
+        <normaloff>:/icon/icons/add.png</normaloff>:/icon/icons/add.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="UpdateButton">
+      <property name="styleSheet">
+       <string notr="true">#UpdateButton{
+background-color:#BC9C22;
+}</string>
+      </property>
+      <property name="text">
+       <string>UPDATE</string>
+      </property>
+      <property name="icon">
+       <iconset resource="../ressouce.qrc">
+        <normaloff>:/icon/icons/update.png</normaloff>:/icon/icons/update.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="SelectButton">
+      <property name="styleSheet">
+       <string notr="true">#SelectButton{
+background-color:#BC9C22;
+}</string>
+      </property>
+      <property name="text">
+       <string>SELECT</string>
+      </property>
+      <property name="icon">
+       <iconset resource="../ressouce.qrc">
+        <normaloff>:/icon/icons/select.png</normaloff>:/icon/icons/select.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="SearchButton">
+      <property name="styleSheet">
+       <string notr="true">#SearchButton{
+background-color:#BC9C22;
+}</string>
+      </property>
+      <property name="text">
+       <string>SEARCH</string>
+      </property>
+      <property name="icon">
+       <iconset resource="../ressouce.qrc">
+        <normaloff>:/icon/icons/search.png</normaloff>:/icon/icons/search.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="ClearButton">
+      <property name="styleSheet">
+       <string notr="true">#ClearButton{
+background-color:#BC9C22;
+}</string>
+      </property>
+      <property name="text">
+       <string>CLEAR</string>
+      </property>
+      <property name="icon">
+       <iconset resource="../ressouce.qrc">
+        <normaloff>:/icon/icons/clear.png</normaloff>:/icon/icons/clear.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="DeleteButton">
+      <property name="styleSheet">
+       <string notr="true">#DeleteButton{
+background-color:#BC9C22;
+}</string>
+      </property>
+      <property name="text">
+       <string>DELETE</string>
+      </property>
+      <property name="icon">
+       <iconset resource="../ressouce.qrc">
+        <normaloff>:/icon/icons/delete.png</normaloff>:/icon/icons/delete.png</iconset>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>320</y>
+     <width>1011</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>id</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>firstname</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>lastname</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>departement</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>position</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Working Hours</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../ressouce.qrc"/>
+ </resources>
+ <connections/>
+</ui>
